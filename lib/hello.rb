@@ -4,7 +4,6 @@ while i < array.length
 yield array[i]
 i +=
  end
-end
 
 # call your method here!
 
@@ -14,4 +13,5 @@ hello_t(["Tim", "Tom", "Jim"]) do |name|
     puts "Hi, #{name}"
   
  end 
+end
 end
